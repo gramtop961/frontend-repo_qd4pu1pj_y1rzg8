@@ -1,0 +1,61 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 271 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.91:3000/
+8:07:21 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Analyzer.jsx:123:163: ERROR: Expected "}" but found "]"
+8:07:21 AM [vite] ✨ new dependencies optimized: framer-motion, @splinetool/react-spline
+8:07:21 AM [vite] ✨ optimized dependencies changed. reloading
+8:07:22 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Analyzer.jsx:123:163: ERROR: Expected "}" but found "]"
+8:07:22 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Analyzer.jsx:123:163: ERROR: Expected "}" but found "]"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Analyzer.jsx:123:163
+  
+  Expected "}" but found "]"
+  121|    const map = {
+  122|      'Spring Light': { colors: ['Peach','Warm beige','Coral','Camel','Soft teal'], fabrics:['Cotton','Light linen'], message:'Airy warm hues make you glow.' },
+  123|      'Spring Warm Soft': { colors: ['Apricot','Terracotta','Warm olive','Honey','Cream'], fabrics:['Linen','Chambray'], message:'Soft warm earth tones flatter you.'],
+     |                                                                                                                                                                     ^
+  124|      'Autumn Warm Deep': { colors: ['Rust','Olive','Mustard','Chocolate','Teal'], fabrics:['Denim','Linen'], message:'Rich earthy colors complement depth.'],
+  125|      'Summer Cool Light': { colors: ['Powder blue','Lavender','Cool pink','Mint','Ice gray'], fabrics:['Poplin','Seersucker'], message:'Light cool pastels keep it fresh.'],
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:07:25 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Analyzer.jsx:123:163: ERROR: Expected "}" but found "]"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Analyzer.jsx:123:163
+  
+  Expected "}" but found "]"
+  121|    const map = {
+  122|      'Spring Light': { colors: ['Peach','Warm beige','Coral','Camel','Soft teal'], fabrics:['Cotton','Light linen'], message:'Airy warm hues make you glow.' },
+  123|      'Spring Warm Soft': { colors: ['Apricot','Terracotta','Warm olive','Honey','Cream'], fabrics:['Linen','Chambray'], message:'Soft warm earth tones flatter you.'],
+     |                                                                                                                                                                     ^
+  124|      'Autumn Warm Deep': { colors: ['Rust','Olive','Mustard','Chocolate','Teal'], fabrics:['Denim','Linen'], message:'Rich earthy colors complement depth.'],
+  125|      'Summer Cool Light': { colors: ['Powder blue','Lavender','Cool pink','Mint','Ice gray'], fabrics:['Poplin','Seersucker'], message:'Light cool pastels keep it fresh.'],
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
